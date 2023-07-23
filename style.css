@@ -1,0 +1,140 @@
+body{
+    /*font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;*/
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:lightgray;
+    /* background: url(./images/html-showcase-2.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.button1{
+    height: 25px;
+    background: orangered;
+    color: white;
+    border: 0;
+    padding: 0 20px 0 10px;
+}
+
+/*Header*/
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 10px;
+    min-height: 60px;
+    border-bottom: orangered 3px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{
+    padding: 0 20px 0 20px;
+    display: inline;
+    float: left;
+}
+
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: orangered;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: lightcyan;
+    font-weight: bold;
+}
+
+/*Showcase*/
+#showcase{
+    min-height: 400px;
+    background: url(./images/html-showcase.png) no-repeat ;
+    background-size:cover;
+    background-attachment: fixed;
+    text-align: center;
+    /*color: rgb(254, 90, 2);*/
+
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: orangered;
+}
+
+#showcase p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*Newsleter*/
+
+#newsletter{
+    padding: 15px; 
+    background: #35424a;
+    color: white;
+}
+
+#newsletter h1{
+    float: left;
+    margin: 0;
+}
+
+#newsletter form{
+    float: right;
+    margin: 0;
+    margin-top: 5px;
+}
+
+/*Boxes*/
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background:orangered;
+    color: white;
+    text-align: center;
+}
